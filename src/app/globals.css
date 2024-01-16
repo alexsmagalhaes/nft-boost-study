@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    font-size: 1rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    color: #fff;
+    background: linear-gradient(120deg, #03000C -14.45%, #020107 106.15%);
+    font-family: var(--font-inter);
+}

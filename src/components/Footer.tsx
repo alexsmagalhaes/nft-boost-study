@@ -25,6 +25,9 @@ export default function Footer() {
                <Image
                   src={Logo}
                   alt="Logo NFT Boost"
+                  width={174}
+                  height={79}
+                  className="w-auto"
                />
                <p className="mt-4 mb-6 text-lg text-white text-opacity-70">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                <Button className="w-full @tablet:w-auto"/>

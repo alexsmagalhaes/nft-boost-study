@@ -1,0 +1,35 @@
+{
+   "nft": [
+      {
+         "id": 1,
+         "collection": "Cartoon Collection",
+         "name": "Comprar leite",
+         "thumbnail": "",
+         "value-btc": 0.2,
+         "value-brl": 3,
+         "variation-day": 20,
+         "verified": true,
+         "promotion": true,
+         "favorite": 3
+      },
+      {
+         "id": 2,
+         "collection": "Cartoon Collection",
+         "name": "Comprar leite",
+         "thumbnail": "",
+         "value-btc": 0.2,
+         "value-brl": 3,
+         "variation-day": 20,
+         "verified": true,
+         "promotion": true,
+         "favorite": 3
+      }
+   ],
+   "user-question":[
+      {
+         "id": 1,
+         "question": "",
+         "anwser": ""
+      }
+   ]
+}

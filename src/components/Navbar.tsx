@@ -25,7 +25,9 @@ export default function Header() {
                <Image
                   src={Logo}
                   alt="Logo NFT Boost"
-                  className="max-w-logo-size-mb @laptop:max-w-logo-size-lp"
+                  width={175}
+                  height={79}
+                  className="max-w-logo-size-mb @laptop:max-w-logo-size-lp w-auto"
                />
             </Link>
             <div className="hidden @laptop:flex flex-1 max-w-nav-navbar items-center justify-between">

@@ -2,7 +2,6 @@ import Image, { StaticImageData } from "next/image"
 import { ReactNode } from "react"
 
 //assets
-import ImageNFT01 from "@/../public/assets/img-nft/01.jpg"
 import IconHeart from "@/../public/assets/icon-heart.svg"
 import IconVerify from "@/../public/assets/verify.svg"
 import IconETH from "@/../public/assets/icon-eth.svg"
@@ -10,18 +9,20 @@ import IconClock from "@/../public/assets/icon-clock.svg"
 
 
 interface CardNFTProps {
-	thumbnail?: StaticImageData,
-	name?: string,
-	value_btc?: string,
-	value_brl?: string
+	thumbnail: StaticImageData,
+	name: string,
+	value_btc: string,
+	value_brl: string,
+	favorite: number
 }
 
 export function CardNFT(
 	{
-		thumbnail = ImageNFT01,
-		name = "NFT Default",
-		value_btc = '0.00',
-		value_brl = '0.00'
+		thumbnail,
+		name,
+		value_btc,
+		value_brl,
+		favorite
 	}: CardNFTProps): ReactNode {
 
 	return (
@@ -30,14 +31,16 @@ export function CardNFT(
 				<Image
 					src={thumbnail}
 					alt="NFT"
-					className="w-full h-full object-cover"
+					className="w-full object-cover h-full"
+					width={262.4}
+					height={236}
 				/>
 				<div className="absolute top-2 right-2 z-10 flex items-center gap-2 py-3 px-6 bg-like-numbers rounded-full border border-nft-card">
 					<Image
 						src={IconHeart}
 						alt="NFT"
 					/>
-					<small>0</small>
+					<small>{favorite}</small>
 				</div>
 			</div>
 

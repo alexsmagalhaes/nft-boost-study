@@ -1,0 +1,221 @@
+{
+   "nftCollection": [
+     {
+       "name": "Cat #221",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/01.jpg",
+         "verified": false,
+         "promotion": false,
+         "favorite": 150
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.085,
+           "brl": 700
+         },
+         "variationDay": 15
+       },
+       "timestamp": "2023-12-25T09:30:00Z"
+     },
+     {
+       "name": "Snike #2331",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/02.jpg",
+         "verified": true,
+         "promotion": true,
+         "favorite": 20
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.062,
+           "brl": 500
+         },
+         "variationDay": 18
+       },
+       "timestamp": "2024-01-10T14:15:00Z"
+     },
+     {
+       "name": "Skull Hatter #2311",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/03.jpg",
+         "verified": false,
+         "promotion": false,
+         "favorite": 5
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.077,
+           "brl": 650
+         },
+         "variationDay": 12
+       },
+       "timestamp": "2024-02-05T16:45:00Z"
+     },
+     {
+       "name": "Nox #2611",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/04.jpg",
+         "verified": true,
+         "promotion": true,
+         "favorite": 30
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.055,
+           "brl": 450
+         },
+         "variationDay": 22
+       },
+       "timestamp": "2024-03-20T11:20:00Z"
+     },
+     {
+       "name": "Crazy Monkey #131",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/05.jpg",
+         "verified": true,
+         "promotion": false,
+         "favorite": 80
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.092,
+           "brl": 750
+         },
+         "variationDay": 10
+       },
+       "timestamp": "2024-04-15T18:00:00Z"
+     },
+     {
+       "name": "Alien Shooter #2211",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/06.jpg",
+         "verified": false,
+         "promotion": false,
+         "favorite": 15
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.080,
+           "brl": 670
+         },
+         "variationDay": 17
+       },
+       "timestamp": "2024-05-22T07:30:00Z"
+     },
+     {
+       "name": "Yordlee #1221",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/07.jpg",
+         "verified": true,
+         "promotion": false,
+         "favorite": 25
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.071,
+           "brl": 590
+         },
+         "variationDay": 19
+       },
+       "timestamp": "2024-06-18T12:10:00Z"
+     },
+     {
+       "name": "Dragon Cannon #4401",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/08.jpg",
+         "verified": true,
+         "promotion": true,
+         "favorite": 10
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.082,
+           "brl": 680
+         },
+         "variationDay": 14
+       },
+       "timestamp": "2024-07-03T14:20:00Z"
+     },
+     {
+       "name": "Borex #171",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/09.jpg",
+         "verified": false,
+         "promotion": false,
+         "favorite": 40
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.075,
+           "brl": 620
+         },
+         "variationDay": 16
+       },
+       "timestamp": "2024-08-09T08:30:00Z"
+     },
+     {
+       "name": "Durtre #2391",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/10.jpg",
+         "verified": true,
+         "promotion": true,
+         "favorite": 8
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.070,
+           "brl": 580
+         },
+         "variationDay": 20
+       },
+       "timestamp": "2024-09-14T15:40:00Z"
+     },
+     {
+       "name": "Hatter #321",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/11.jpg",
+         "verified": true,
+         "promotion": false,
+         "favorite": 12
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.078,
+           "brl": 660
+         },
+         "variationDay": 11
+       },
+       "timestamp": "2024-10-20T11:50:00Z"
+     },
+     {
+       "name": "Sailor Skull #4431",
+       "collection": "Cartoon Collection",
+       "metadata": {
+         "thumbnail": "/assets/img-nft/12.jpg",
+         "verified": false,
+         "promotion": false,
+         "favorite": 3
+       },
+       "statistics": {
+         "value": {
+           "btc": 0.068,
+           "brl": 560
+         },
+         "variationDay": 21
+       },
+       "timestamp": "2024-11-25T08:55:00Z"
+     }
+   ]
+ }
+ 

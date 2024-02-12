@@ -1,0 +1,148 @@
+{
+   "nft": [
+      {
+         "collection": "Cartoon Collection",
+         "name": "Cat #221",
+         "thumbnail": "/assets/img-nft/01.jpg",
+         "valueBtc": 0.085,
+         "valueBrl": 700,
+         "variationDay": 15,
+         "verified": false,
+         "promotion": false,
+         "favorite": 150,
+         "dataAdd": "2023-12-25T09:30:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Snike #2331",
+         "thumbnail": "/assets/img-nft/02.jpg",
+         "valueBtc": 0.062,
+         "valueBrl": 500,
+         "variationDay": 18,
+         "verified": true,
+         "promotion": true,
+         "favorite": 20,
+         "dataAdd": "2024-01-10T14:15:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Skull Hatter #2311",
+         "thumbnail": "/assets/img-nft/03.jpg",
+         "valueBtc": 0.077,
+         "valueBrl": 650,
+         "variationDay": 12,
+         "verified": false,
+         "promotion": false,
+         "favorite": 5,
+         "dataAdd": "2024-02-05T16:45:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Nox #2611",
+         "thumbnail": "/assets/img-nft/04.jpg",
+         "valueBtc": 0.055,
+         "valueBrl": 450,
+         "variationDay": 22,
+         "verified": true,
+         "promotion": true,
+         "favorite": 30,
+         "dataAdd": "2024-03-20T11:20:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Crazy Monkey #131",
+         "thumbnail": "/assets/img-nft/05.jpg",
+         "valueBtc": 0.092,
+         "valueBrl": 750,
+         "variationDay": 10,
+         "verified": true,
+         "promotion": false,
+         "favorite": 80,
+         "dataAdd": "2024-04-15T18:00:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Alien Shooter #2211",
+         "thumbnail": "/assets/img-nft/06.jpg",
+         "valueBtc": 0.080,
+         "valueBrl": 670,
+         "variationDay": 17,
+         "verified": false,
+         "promotion": false,
+         "favorite": 15,
+         "dataAdd": "2024-05-22T07:30:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Yordlee #1221",
+         "thumbnail": "/assets/img-nft/07.jpg",
+         "valueBtc": 0.071,
+         "valueBrl": 590,
+         "variationDay": 19,
+         "verified": true,
+         "promotion": false,
+         "favorite": 25,
+         "dataAdd": "2024-06-18T12:10:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Dragon Cannon #4401",
+         "thumbnail": "/assets/img-nft/08.jpg",
+         "valueBtc": 0.082,
+         "valueBrl": 680,
+         "variationDay": 14,
+         "verified": true,
+         "promotion": true,
+         "favorite": 10,
+         "dataAdd": "2024-07-03T14:20:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Borex #171",
+         "thumbnail": "/assets/img-nft/09.jpg",
+         "valueBtc": 0.075,
+         "valueBrl": 620,
+         "variationDay": 16,
+         "verified": false,
+         "promotion": false,
+         "favorite": 40,
+         "dataAdd": "2024-08-09T08:30:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Durtre #2391",
+         "thumbnail": "/assets/img-nft/10.jpg",
+         "valueBtc": 0.070,
+         "valueBrl": 580,
+         "variationDay": 20,
+         "verified": true,
+         "promotion": true,
+         "favorite": 8,
+         "dataAdd": "2024-09-14T15:40:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Hatter #321",
+         "thumbnail": "/assets/img-nft/11.jpg",
+         "valueBtc": 0.078,
+         "valueBrl": 660,
+         "variationDay": 11,
+         "verified": true,
+         "promotion": false,
+         "favorite": 12,
+         "dataAdd": "2024-10-20T11:50:00Z"
+      },
+      {
+         "collection": "Cartoon Collection",
+         "name": "Sailor Skull #4431",
+         "thumbnail": "/assets/img-nft/12.jpg",
+         "valueBtc": 0.068,
+         "valueBrl": 560,
+         "variationDay": 21,
+         "verified": false,
+         "promotion": false,
+         "favorite": 3,
+         "dataAdd": "2024-11-25T08:55:00Z"
+      }
+   ]
+}

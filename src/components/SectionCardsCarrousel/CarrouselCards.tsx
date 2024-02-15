@@ -1,11 +1,13 @@
 "use client"
 
 import Image, { StaticImageData } from "next/image"
-import { ReactNode, useRef, useState } from "react";
+import { ReactNode, useEffect, useRef, useState } from "react";
 import { CardNFT } from "../CardNFT";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from 'swiper/modules'
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 import 'swiper/css'
 
@@ -30,6 +32,7 @@ interface CarrouselCardsProps {
 }
 
 function CarrouselCards({ data }: CarrouselCardsProps): ReactNode {
+   gsap.registerPlugin(ScrollTrigger)
 
    //Update element swiper to set the new navigation controls
    const [_, setInit] = useState(false);
@@ -37,8 +40,23 @@ function CarrouselCards({ data }: CarrouselCardsProps): ReactNode {
    const prevRef = useRef(null);
    const nextRef = useRef(null);
 
+   const areaSlideRef = useRef(null)
+
+   useEffect(() => {
+      const areaSlide = areaSlideRef.current
+
+      gsap.fromTo(areaSlide,
+         { opacity: 0, y: 50 },
+         { opacity: 1, y: 0, duration: 2, ease: 'power3.out' , 
+         scrollTrigger:{
+            trigger: areaSlide,
+            start: 'top-=300 center'
+         }}
+      )
+   }, [])
+
    return (
-      <div className="w-full relative">
+      <div ref={areaSlideRef} className="w-full relative">
          <button
             ref={prevRef}
             className="border border-white border-opacity-10 hover:bg-btn-slide-color transition ease-linear w-12 h-12 bg-blue-primary rounded-full hidden @laptop:flex items-center justify-center z-10 absolute top-1/2 -mt-6 -left-6">

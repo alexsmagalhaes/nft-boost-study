@@ -30,8 +30,6 @@ export default function CardHero() {
          }
       })
 
-      console.log(cardsLeft)
-
       tl.to(cardsLeft,
          { left: 0 },
          0

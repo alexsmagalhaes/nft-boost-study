@@ -1,5 +1,5 @@
 import ContainerGrid from "../ContainerGrid";
-import { AreaText } from "./AreaTExt";
+import { AreaText } from "./AreaText";
 import CardHero from "./CardsHero";
 
 export default function SectionHero() {

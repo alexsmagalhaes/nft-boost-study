@@ -1,6 +1,6 @@
 "use client"
 
-import { ReactNode } from "react"
+import { ReactNode, useContext } from "react"
 import SectionCardsCarrousel from "@/components/SectionCardsCarrousel"
 import SectionHero from "@/components/SectionHero"
 import SectionCollectors from "@/components/SectionCollectors"
@@ -12,7 +12,7 @@ import useFetch from "@/hooks/useFetch"
 
 export default function Home(): ReactNode {
 
-  const { data } = useFetch('http://localhost:3000/nft');
+  const { data } = useFetch('https://json-server-alex.vercel.app/nft');
 
   // Verifica se data está definido antes de acessar seu primeiro elemento
   // if (data && data.length > 0) {
@@ -32,7 +32,9 @@ export default function Home(): ReactNode {
             data={data}
           />
           <hr className="border-t max-w-grid mx-auto border-white border-opacity-10" />
-          <SectionCollectors />
+          <SectionCollectors
+            data={data}
+          />
           <hr className="border-t max-w-grid mx-auto border-white border-opacity-10" />
           <SectionCardsCarrousel
             subtitle="Seleção Mensal"

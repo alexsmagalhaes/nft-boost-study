@@ -5,18 +5,13 @@ import React, { ReactNode, createContext, useState } from 'react';
 //hooks
 import useFetch from "@/hooks/useFetch";
 
-// Criando o contexto
-export const DataContext = createContext({});
+export const DataContext: any = createContext({});
 
-// Provedor do contexto
 export const DataProvider = ({ children }: { children: ReactNode }) => {
-
-   const [value, setValue] = useState(null);
-
-   setValue(useFetch("http://localhost:3000/nft"));
+   const [dataNft, setDataNft] = useState({});
 
    return (
-      <DataContext.Provider value={{ value, setValue }}>
+      <DataContext.Provider value={{dataNft, setDataNft}}>
          {children}
       </DataContext.Provider>
    );

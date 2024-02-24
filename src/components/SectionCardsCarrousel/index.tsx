@@ -6,7 +6,7 @@ import CarrouselCards from "./CarrouselCards";
 interface SectionCardsCarrouselProps {
    subtitle?: string,
    title?: string,
-   data?: any,
+   data: any,
 }
 
 function SectionCardsCarrousel({ subtitle, title, data}: SectionCardsCarrouselProps): ReactNode {

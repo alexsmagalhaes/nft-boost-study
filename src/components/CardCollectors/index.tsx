@@ -10,17 +10,18 @@ interface CardCollectorsProps {
 	index?: number | string,
 	thumbnail?: StaticImageData,
 	name?: string,
-	value_btc?: string,
-	percent?: string
+	valueBtc?: string,
+	variationDay?: number
 }
+
 
 function CardCollectors(
 	{
 		index = '#Not',
 		thumbnail = ImageNFT,
 		name = "Default NFT",
-		value_btc = '0.000',
-		percent = "0"
+		valueBtc = '0.000',
+		variationDay = 0
 	}: CardCollectorsProps
 ): ReactNode {
 
@@ -35,6 +36,8 @@ function CardCollectors(
 								src={thumbnail}
 								alt="NFT image"
 								className='w-full h-full object-cover'
+								width={37}
+								height={37}
 							/>
 						</div>
 						<Image
@@ -55,20 +58,20 @@ function CardCollectors(
 									src={IconETH}
 									alt="Icon Etherium"
 								/>
-								{value_btc} BTC
+								{valueBtc} BTC
 							</span>
 						</p>
 					</div>
 				</div>
 			</div>
 			<div className='space-y-1 text-right'>
-				<strong className='text-green-primary font-bold'>{percent}%</strong>
+				<strong className='text-green-primary font-bold'>{variationDay}%</strong>
 				<span className=' font-semibold flex items-center gap-1 text-sm text-white'>
 					<Image
 						src={IconETH}
 						alt="Icon Etherium"
 					/>
-					{value_btc} BTC
+					{valueBtc} BTC
 				</span>
 			</div>
 		</div>
